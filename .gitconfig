@@ -1,0 +1,22 @@
+[user]
+	name = Xartok
+	email = lagache.yoann@gmail.com
+[core]
+	autocrlf = true
+[color]
+	ui = true
+[push]
+	default = upstream
+[credential]
+	helper = wincred
+[alias]
+	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ar)%Creset'
+	co = checkout
+	br = branch
+	st = status
+	ci = commit
+	oops = commit --amend --no-edit
+[url "https://"]
+	insteadOf = git://
+[pull]
+	rebase = preserve
