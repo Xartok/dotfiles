@@ -3,12 +3,13 @@
 	email = lagache.yoann@gmail.com
 [core]
 	autocrlf = true
+	excludesfile = /Users/xartok/.gitignore_global
 [color]
 	ui = true
 [push]
 	default = upstream
 [credential]
-	helper = wincred
+	helper = osxkeychain
 [alias]
 	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ar)%Creset'
 	co = checkout
